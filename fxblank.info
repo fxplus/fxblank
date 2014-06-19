@@ -47,6 +47,7 @@ stylesheets[all][] = css/typography.css
 
 ;-------------- JS -------------
 scripts[] = js/script.js
+scripts[] = js/FitVids.js/jquery.fitvids.js
 
 ;-------------- Default Mothership Settings  -------------
 settings[mothership_rebuild_registry] = 0
