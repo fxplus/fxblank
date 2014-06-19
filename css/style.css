@@ -1,0 +1,93 @@
+html,body {
+  background-color: #fff;
+}
+body {
+  padding-bottom: 100px;
+}
+/*header[role="banner"] {
+    background: #fff url(../images/fu_uoe_logo.png) no-repeat bottom right;
+}*/
+body.sidebar-first div[role="main"], 
+header[role="banner"],
+.page {
+  border: none;
+}
+
+div[role="main"], div.sidebar-first, div.sidebar-second {
+  padding: 0;
+}
+
+.item-list ul li {
+  margin-left: 0;
+  padding-left: 0;
+}
+.content ul {
+  padding-left: 20px;
+}
+.content ul li {
+  list-style: disc;
+}
+ul.inline li.first {
+  padding-left: 0;
+}
+
+table {
+  width: 100%;
+}
+table td {
+  padding: 10px;
+}
+table td.col_0 {
+  width: 50%;
+}
+tr.even, tr.odd {}
+
+.active, .active-trail {
+  font-weight: normal;
+}
+/*#block-nodequeue-pager-1 { position:absolute; top: 24px; right: 0;}*/
+ul.nodequeue_pager { text-align: right;}
+ul.nodequeue_pager  li { display: inline-block; text-align: right;}
+a.btn-primary { color: white;}
+
+.ui-widget {
+  font-size: 15px;
+}
+.ui-widget p {
+  margin-top: 0;
+}
+
+.ui-accordion-header.ui-state-default { background-image: none; }
+.ui-accordion-header.ui-state-active { background-image: none; }
+.ui-accordion .ui-accordion-content {
+padding: 1em 1em 0.5em 1em;
+}
+
+.jquery-ui-filter-header {
+  font-family: "stag-book";
+  font-size: 21px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  border: 1px solid #fefefe;
+  background: #e6e6e6 none 50% 50% repeat-x;
+}
+.ui-accordion-icons .ui-accordion-header a {
+  padding-left: 1.8em;
+}
+.ui-state-active, .ui-widget-content {
+ border: 1px solid #ddd; 
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background: #fff url(../images/fu_uoe_logo.png) no-repeat bottom right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* admin */
+.tabs {text-align:right; position:absolute; top: 0; right: 0;}
+.tabs {opacity:0.5;}
+.tabs:hover {opacity:1;}
