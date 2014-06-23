@@ -14,7 +14,7 @@ html, body {
   height: 100%;
   position: relative;
   margin: 0 auto -80px;
-
+  /*background: #fff url(../images/fu_uoe_logo_smpad.png) no-repeat top right;*/
 }
 footer, .push {
   clear:both;
@@ -45,29 +45,53 @@ div[role="main"], div.sidebar-first, div.sidebar-second {
 div[role="main"] .wrapper {
 max-width: 800px;
 }
+.sidebar-first {
+  margin-top: 30px;
+}
+#block-views-nodequeue-1-block ul li {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+/*
+.sidebar-first ul {
+  padding:5px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}*/
+.sidebar-first h2 {
+ display: none;
+}
 .item-list ul li {
   margin-left: 0;
   padding-left: 0;
 }
 .content ul {
   padding-left: 20px;
+  font-size: 1em;
+  margin-bottom: 30px;
 }
 .content ul li {
   list-style: disc;
+  line-height: 2;
 }
 ul.inline li.first {
   padding-left: 0;
 }
 table {
   width: 100%;
+  margin-top: 40px;
 }
 table td {
   padding: 10px;
+  border:0;
 }
 table td.col_0 {
   width: 50%;
 }
-tr.even, tr.odd {}
+tr {border:0;}
+tr.even {
+ background-color: #ddd;
+}
 
 .active, .active-trail {
   font-weight: normal;
@@ -106,7 +130,6 @@ a.btn-primary { color: white;}
   line-height:0;
   padding-bottom: 20px;
 }
-
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
   border: 1px solid #fefefe;
   background: #e6e6e6 none 50% 50% repeat-x;
@@ -118,7 +141,7 @@ a.btn-primary { color: white;}
   border: 1px solid #ddd; 
 }
 div.embedded-video {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 footer[role="contentinfo"] {
   background: #fff url(../images/fu_uoe_logo_smpad.png) no-repeat top right;
@@ -156,16 +179,6 @@ footer[role="contentinfo"] {
     font-size: 1.1em;
     font-weight: normal;
     padding: 8px 14px;
-  }
-  .sidebar-first { /* .bs-docs-sidenav */
-    padding: 0;
-    background-color: #fff;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
-    -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
-    box-shadow: 0 1px 4px rgba(0,0,0,.065);
   }
 }
 .mean-nav .title {

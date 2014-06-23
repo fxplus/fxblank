@@ -36,13 +36,13 @@ body {
 	-o-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
+  font-size: 15px;
 }
 
 
 p, .ui-widget {
 	margin-bottom: 24px;
 	font-family: Roboto;
-	font-size: 15px;
 	line-height: 24px;
 	letter-spacing: 0px;
 	font-style: normal;
