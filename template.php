@@ -1,5 +1,15 @@
 <?php
 
+/* Implemented in video_embed_field.handlers.inc directly */
+// function fxblank_video_embed_field_embed_code($vars) {
+//   dpm($vars);
+//   // Lazy hack to stop (multiple) videos in content (eg accordions)
+//   // from autoplaying at once
+//   // $embed_code = str_replace('autoplay=1', 'autoplay=0', $embed_code);
+//   $vars['embed_code'] = str_replace('autoplay=1', 'autoplay=0', $vars['embed_code']);
+//   return 'HELLO';
+// }
+
 function fxblank_nodequeue_pager($vars) {
   $pager = getPager($vars['sqid'], $vars['wrap']);
   $prev = FALSE;
